@@ -1,4 +1,7 @@
 import { useState, React } from 'react';
+import FoodDropdown from './FoodDropdown';
+import DrinkDropdown from './DrinkDropdown';
+import SideDropdown from './SideDropdown';
 import './App.css';
 
 function App() {
