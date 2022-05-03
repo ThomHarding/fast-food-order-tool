@@ -5,6 +5,7 @@ import FoodDropdown from './FoodDropdown';
 import DrinkDropdown from './DrinkDropdown';
 import SideDropdown from './SideDropdown';
 import InstructionsList from './InstructionsList';
+import InstructionsForm from './InstructionsForm';
 import './App.css';
 
 function App() {
