@@ -5,9 +5,9 @@ export default function FoodDropdown({ setFood }) {
     <div>
       Select a food
       <select onChange={e => setFood(e.target.value)}>
-        <option value="1">Water</option>
-        <option value="2">Mystery Juice</option>
-        <option value="3">Water 2</option>
+        <option value="1">Ham</option>
+        <option value="2">Spam</option>
+        <option value="3">A Live Bear</option>
       </select>
     </div>
   );

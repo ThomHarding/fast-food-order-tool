@@ -1,4 +1,6 @@
 import { useState, React } from 'react';
+import OrderImages from './OrderImages';
+import OrderNameInput from './OrderNameInput';
 import FoodDropdown from './FoodDropdown';
 import DrinkDropdown from './DrinkDropdown';
 import SideDropdown from './SideDropdown';
@@ -14,7 +16,6 @@ function App() {
     <div className="App">
       <div className='order'>
         <p>{orderName}`&apos;`s Order</p>
-        <OrderNameInput setOrderName={setOrderName} />
         <OrderImages foodId={foodId} drinkId={drinkId} sideId={sideId} />
         <InstructionsList instructions={instructions} />
       </div>

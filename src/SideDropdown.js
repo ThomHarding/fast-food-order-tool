@@ -5,9 +5,9 @@ export default function SideDropdown({ setSide }) {
     <div>
       Select a side
       <select onChange={e => setSide(e.target.value)}>
-        <option value="1">Water</option>
-        <option value="2">Mystery Juice</option>
-        <option value="3">Water 2</option>
+        <option value="1">Beans</option>
+        <option value="2">Egg</option>
+        <option value="3">The Cube</option>
       </select>
     </div>
   );
