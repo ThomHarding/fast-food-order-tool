@@ -17,7 +17,7 @@ function App() {
   return (
     <div className="App">
       <div className='order'>
-        <p>{orderName}`&apos;`s Order</p>
+        <p>{orderName}&apos;s Order</p>
         <OrderImages foodId={foodId} drinkId={drinkId} sideId={sideId} />
         <InstructionsList instructions={instructions} />
       </div>

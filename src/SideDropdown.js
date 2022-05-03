@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function SideDropdown({ setSide }) {
+export default function SideDropdown({ setSideId }) {
   return (
     <div>
       Select a side
-      <select onChange={e => setSide(e.target.value)}>
+      <select onChange={e => setSideId(e.target.value)}>
         <option value="1">Beans</option>
         <option value="2">Egg</option>
         <option value="3">The Cube</option>
