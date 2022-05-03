@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
-  // render(<App />);
-  // const linkElement = screen.getByText(/learn react/i);
-  // expect(linkElement).toBeInTheDocument();
+test('renders the top img with the right initial source', () => {
+  render(<App />);
+  const imgElement = screen.getAllByRole('img');
+  expect(imgElement[0]).toBeInTheDocument();
+  expect(imgElement[0]).toHaveAttribute('src', 'food-1.png');
 });
