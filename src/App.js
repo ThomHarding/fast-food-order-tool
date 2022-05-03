@@ -9,7 +9,19 @@ function App() {
   const [instructions, setInstructions] = useState(['no bread', 'salt on top']);
   return (
     <div className="App">
-
+      <div className='order'>
+        <p>{orderName}`&apos;`s Order</p>
+        <OrderNameInput setOrderName={setOrderName} />
+        <OrderImages foodId={foodId} drinkId={drinkId} sideId={sideId} />
+        <InstructionsList instructions={instructions} />
+      </div>
+      <div className='order-form'>
+        <FoodDropdown setFoodId={setFoodId} />
+        <DrinkDropdown setDrinkId={setDrinkId} />
+        <SideDropdown setSideId={setSideId}/>
+        <OrderNameInput setOrderName={setOrderName} />
+        <InstructionsForm instructions={instructions} setInstructions={setInstructions} />
+      </div>
     </div>
   );
 }
