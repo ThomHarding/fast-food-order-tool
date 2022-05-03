@@ -4,6 +4,7 @@ import OrderNameInput from './OrderNameInput';
 import FoodDropdown from './FoodDropdown';
 import DrinkDropdown from './DrinkDropdown';
 import SideDropdown from './SideDropdown';
+import InstructionsList from './InstructionsList';
 import './App.css';
 
 function App() {
